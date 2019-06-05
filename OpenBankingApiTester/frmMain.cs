@@ -37,7 +37,7 @@ namespace OpenBankingApiTester
         {
             try
             {
-                SaveSetttings();
+                SaveSettings();
 
                 txtResponse.Text = "";
                 X509Certificate2 TPPCertificate = new X509Certificate2(txtQWACDir.Text);
@@ -93,7 +93,7 @@ namespace OpenBankingApiTester
             }
         }
 
-        private void SaveSetttings()
+        private void SaveSettings()
         {
             Properties.Settings.Default.QWACFile = txtQWACDir.Text;
             Properties.Settings.Default.QSEALFile = txtQSEALDir.Text;
