@@ -1,6 +1,8 @@
 # OpenBankingApiTester
 App for testing PSD2 API with QWAC (TPP) and QSEAL certificates
 
+![alt text](https://github.com/miroslavm87/OpenBankingApiTester/blob/master/images/OpenBankingApiTester.png)
+
 #### Supports:
 1. Medicinos Bankas - https://developers.medbank.lt
 2. Šiaulių Bankas - https://openbanking.siauliubankas.lt
