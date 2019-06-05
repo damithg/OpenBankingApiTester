@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OpenBankingApiTester.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="QWACFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="QSEALFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RequestUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://somebank.com:444/psd2/v1/consents</Value>
+    </Setting>
+    <Setting Name="RequstBody" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{
+  "access": {
+    "accounts": []
+  },
+  "recurringIndicator": false,
+  "validUntil": "2021-01-01",
+  "frequencyPerDay": 1,
+  "combinedServiceIndicator": false
+}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
