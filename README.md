@@ -1,5 +1,5 @@
 # OpenBankingApiTester
-App for testing PSD2 API with QWAC (TPP) and QSEAL certificates
+App for testing PSD2 API with QWAC (TPP) and QSEAL certificates. Now supports only POST methods.
 
 ![alt text](https://github.com/miroslavm87/OpenBankingApiTester/blob/master/images/OpenBankingApiTester.png)
 
