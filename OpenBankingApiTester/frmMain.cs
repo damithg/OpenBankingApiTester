@@ -89,8 +89,7 @@ namespace OpenBankingApiTester
             }
             catch (Exception ex)
             {
-
-                txtResponse.Text += Environment.NewLine + ex.ToString();
+                txtResponse.Text = ex.ToString();
             }
         }
 
